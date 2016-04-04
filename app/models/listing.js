@@ -10,5 +10,6 @@ export default DS.Model.extend({
     contactModel: DS.attr(),
     contactEmail: DS.attr(),
     latitude: DS.attr(),
-    longitude: DS.attr()
+    longitude: DS.attr(),
+    category: DS.belongsTo('category', { async: true })
 });
