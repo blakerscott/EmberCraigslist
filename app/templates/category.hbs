@@ -2,4 +2,9 @@
 
 /* Listings go here */
 
-{{category-tile category=model}}
+<h4>Listings:</h4>
+{{#each model.listings as |listing|}}
+  {{listing-tile listing=listing}}
+{{/each}}
+
+<!-- {{category-tile category=model}} -->
