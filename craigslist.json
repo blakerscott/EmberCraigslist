@@ -4,5 +4,17 @@
     "name": "Music"
   }, {
     "name": "Antiques"
-  }]
+  }],
+  "listings": [{
+    "name": "Wanda Jackson Record, Queen of Rockabilly",
+    "image": "http://mypage.siu.edu/leah.nicole07/project3/images/walbum.jpg",
+    "price": 50,
+    "dateAdded": "03-13-16",
+    "location": "Gresham",
+    "description": "Super sweet Wanda Jackson record. Mint condition.",
+    "contactModel": "Betty",
+    "contactEmail": "betty@gmail.com",
+    "longitude": "",
+    "latitude": ""
+    }]
 }
