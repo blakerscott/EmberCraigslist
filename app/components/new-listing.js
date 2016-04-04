@@ -11,7 +11,6 @@ export default Ember.Component.extend({
         name: this.get('name') ? this.get('name'): "",
         image: this.get('image') ? this.get('image'): "",
         price: this.get('price') ? this.get('price'): "",
-        dateAdded: this.get('dateAdded') ? this.get('dateAdded'): "",
         location: this.get('location') ? this.get('location'): "",
         description: this.get('description') ? this.get('description'): "",
         contactModel: this.get('contactModel') ? this.get('contactModel'): "",
